@@ -14,3 +14,9 @@
   // when setting a width and height attribute on the img element.
   height: auto;
 }
+
+
+@mixin imagenFondo ($url){
+  background-image: url($url);
+  margin: 0 auto;
+}
